@@ -59,7 +59,7 @@ body {
 #spooky #body:after {
     right: -18px;
 }
-   
+
 #spooky #body #eyes {
     display: flex;
     justify-content: space-between;
@@ -142,4 +142,30 @@ body {
     50% {
         transform: scale(0.8);
     }
+}
+/* Change main body color */
+#spooky:hover #body {
+    background: #ffefaa; /* light yellow */
+}
+
+/* Change arms */
+#spooky:hover #body:before,
+#spooky:hover #body:after {
+    background: #ffefaa;
+}
+
+/* Change feet */
+#spooky:hover #body #feet > * {
+    background: #ffefaa;
+}
+
+/* Change eyes */
+#spooky:hover #body #eyes:before,
+#spooky:hover #body #eyes:after {
+    background: #ff5e5e; /* red/pink eyes */
+}
+
+/* Change mouth */
+#spooky:hover #body #mouth {
+    background: #ff5e5e;
 }
